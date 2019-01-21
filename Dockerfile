@@ -1,4 +1,4 @@
-FROM javiersantos/android-ci:27.0.3
+FROM javiersantos/android-ci:28.0.3
 
 # Installs Node.js
 RUN apt-get update && apt-get install -my gnupg
