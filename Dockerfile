@@ -1,4 +1,4 @@
-FROM jangrewe/gitlab-ci-android
+FROM javiersantos/android-ci:27.0.3
 
 # Installs Node.js
 RUN apt-get update && apt-get install -my gnupg
